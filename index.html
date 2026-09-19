@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Hollowpath — Hold the road.</title>
+  <meta name="description" content="Hold the road. A dusk-pass tower defense from WorldWideVibes." />
+  <meta name="theme-color" content="#0b0b0c" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/hollowpath.css" />
+</head>
+<body>
+  <div id="stage">
+    <canvas id="view" width="1280" height="720" aria-label="Hollowpath dusk pass"></canvas>
+    <div id="hud">
+      <header>
+        <div>
+          <div class="kicker">WorldWideVibes · Hollowpath</div>
+          <h1>Hold the road.</h1>
+        </div>
+        <div class="stat" id="stats">Iron <b id="gold">—</b><br />Lives <b id="lives">—</b><br />Wave <b>1 / 1</b></div>
+      </header>
+      <footer>
+        <p id="hint">Place lanterns on the iron pads, then call the wave.</p>
+        <button class="act" id="waveBtn" type="button" hidden>Call the wave</button>
+      </footer>
+    </div>
+    <div id="overlay">
+      <div class="panel">
+        <div class="kicker" id="ovKicker">Dusk pass</div>
+        <h2 id="ovTitle">Hollowpath</h2>
+        <p id="ovBody">Beetles will take the cut if the lanterns go dark. Place iron lantern-towers on the pads. Survive one blight wave.</p>
+        <div class="row">
+          <button class="act" id="ovAct" type="button">Take the watch</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/game.js"></script>
+</body>
+</html>

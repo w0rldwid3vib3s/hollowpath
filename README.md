@@ -2,43 +2,35 @@
 
 **Hold the road.**
 
-A dusk-pass tower defense. You keep a mountain cut open while blight beetles press the lantern-tower.
+A dusk-pass tower defense from WorldWideVibes. You keep a mountain cut open while blight beetles press the lantern-tower.
 
-This GitHub **repository** is Hollowpath’s permanent home. WorldWideVibes builds products in Grok, then **commits** (saves snapshots of) the files here so the game does not live only in a chat.
+## Play (vertical slice)
 
-| GitHub word | In this repo |
+Open [`index.html`](./index.html) in a browser — no install, no build.
+
+1. **Take the watch**
+2. Tap **iron pads** (the rings off the road) to plant lantern-towers. Each costs **35 iron**. You start with **70**, so two lanterns.
+3. **Call the wave**
+4. Towers throw cinders at the beetle furthest along the path. If three beetles reach the gate, the pass is **Breached**. If the wave dies with the gate intact, you **Hold**.
+
+This is a **playable slice**, not a GitHub **Release**. A Release is a named version (`v0.1.0`) we cut when the publisher says it is actually fun.
+
+## GitHub 101
+
+This **repository** is Hollowpath’s public home. A **commit** is a snapshot of these files. Branch `main` is the trusted copy. Anyone can read this repo; do not put secrets here.
+
+| Word | Here |
 | --- | --- |
-| **Repository** | Hollowpath itself |
-| **README** | This page — the public welcome mat |
-| **main** | The trusted branch. Treat it as the product. |
-| **Public** | Anyone can read. No API keys, no unpublished strategy. |
-| **Release** | Later: a named version such as `v1.0.0` with a playable build |
-
-Studio catalog: [wwv-site](https://github.com/paulcaetano21-hue/wwv-site)
-
-## Status
-
-Public repo opened **18 Sep 2026**. Playable build is the next commit series — it has not landed yet.
-
-See [`STATUS.md`](./STATUS.md).
+| **Issue** | Tickets such as [#1 playable slice](https://github.com/paulcaetano21-hue/hollowpath/issues/1) |
+| **Release** | Not yet — slice first |
+| **Public** | Storefront. Studio notes stay in a private repo. |
 
 ## Aesthetic
 
-- Dusk mountain pass
-- Iron lantern-tower
-- Chitinous blight beetle
-- Editorial, dark, quiet — not cartoon neon
+Dusk mountain pass · iron lantern-tower · chitinous blight beetle · editorial, dark, quiet — not cartoon neon.
 
-## What this repo is for
+## What this is not
 
-- Source for the game
-- Public proof of work (build-in-public)
-- Future GitHub **Releases** when a version is worth charging $1 for
+Full campaign, accounts, ads, $1 checkout, Dropforge, Stave, or Skill Creator. One product, one repo.
 
-What it is **not**: the content calendar, CoS notes, or unreleased WWV plans. Those stay in the private `wwv-studio` repo.
-
-## Team
-
-- **Publisher** — you
-- **Builder** — Grok Build, writing into this repo
-- **Chief of Staff** — tracks whether Hollowpath is moving; does not edit game code
+Catalog: [wwv-site](https://github.com/paulcaetano21-hue/wwv-site)
