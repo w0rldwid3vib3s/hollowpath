@@ -21,7 +21,7 @@ This **repository** is Hollowpath’s public home. A **commit** is a snapshot of
 
 | Word | Here |
 | --- | --- |
-| **Issue** | Tickets such as [#1 playable slice](https://github.com/paulcaetano21-hue/hollowpath/issues/1) |
+| **Issue** | Tickets such as [#1 playable slice](https://github.com/w0rldwid3vib3s/hollowpath/issues/1) |
 | **Release** | Not yet — slice first |
 | **Public** | Storefront. Studio notes stay in a private repo. |
 
@@ -33,4 +33,4 @@ Dusk mountain pass · iron lantern-tower · chitinous blight beetle · editorial
 
 Full campaign, accounts, ads, $1 checkout, Dropforge, Stave, or Skill Creator. One product, one repo.
 
-Catalog: [wwv-site](https://github.com/paulcaetano21-hue/wwv-site)
+Catalog: [wwv-site](https://github.com/w0rldwid3vib3s/wwv-site)
