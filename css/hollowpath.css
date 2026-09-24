@@ -127,7 +127,7 @@ h1 {
   line-height: 1.5;
 }
 
-button.act {
+button.act, a.act {
   pointer-events: auto;
   appearance: none;
   border: 0;
@@ -141,16 +141,33 @@ button.act {
   min-height: 44px;
   border-radius: 999px;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
-button.act, #waveBtn { pointer-events: auto; }
+button.act, a.act, #waveBtn, #buyLink { pointer-events: auto; }
 button.act:disabled { opacity: 0.4; cursor: default; }
-button.ghost {
+button.ghost, a.act.ghost {
   background: transparent;
   color: var(--bone);
   border: 1px solid var(--line);
-  margin-left: 0.45rem;
+  margin-left: 0;
 }
+
+.support {
+  margin: 0.35rem 0 0;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+}
+.support a {
+  color: var(--amber);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+.support a:hover { color: var(--bone); }
 
 .row { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 

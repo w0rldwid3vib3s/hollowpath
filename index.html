@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Hollowpath — Hold the road.</title>
-  <meta name="description" content="Hold the road. A dusk-pass tower defense from WorldWideVibes." />
+  <meta name="description" content="Hold the road. Free to play. CAD $1 packaged Release supports WorldWideVibes." />
   <meta name="theme-color" content="#0b0b0c" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="css/hollowpath.css" />
@@ -21,7 +21,10 @@
         <div class="stat" id="stats">Iron <b id="gold">—</b><br />Lives <b id="lives">—</b><br />Wave <b>1 / 1</b></div>
       </header>
       <footer>
-        <p id="hint">Place lanterns on the iron pads, then call the wave.</p>
+        <div>
+          <p id="hint">Place lanterns on the iron pads, then call the wave.</p>
+          <p class="support"><a id="buyLink" href="https://caetano72.gumroad.com/l/hollowpath" target="_blank" rel="noopener">Buy CAD $1 · packaged Release</a></p>
+        </div>
         <button class="act" id="waveBtn" type="button" hidden>Call the wave</button>
       </footer>
     </div>
@@ -32,6 +35,7 @@
         <p id="ovBody">Beetles will take the cut if the lanterns go dark. Place iron lantern-towers on the pads. Survive one blight wave.</p>
         <div class="row">
           <button class="act" id="ovAct" type="button">Take the watch</button>
+          <a class="act ghost" id="ovBuy" href="https://caetano72.gumroad.com/l/hollowpath" target="_blank" rel="noopener">Buy CAD $1</a>
         </div>
       </div>
     </div>
